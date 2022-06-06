@@ -105,10 +105,14 @@ a {
 
 .card-body-hover {
     transition: transform .4s ease-in-out;
+    border-radius: 10px !important;
     object-fit: cover;
 }
 .card-body-hover img:hover{
     opacity: 0.4;
+}
+.img-card{
+    border-radius: 8px 8px 0px 0px !important;
 }
 .card-body {
     color: #fff;
