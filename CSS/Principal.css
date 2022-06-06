@@ -243,8 +243,9 @@ a {
     }
 
     .carousel-item .btn-carrusel {
-        font-size: 15px;
-        padding: 0px;
+        font-size: 14px;
+        margin-top: 10px;
+        padding: 4px;
     }
 }
 
