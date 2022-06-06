@@ -15,6 +15,12 @@
     z-index: 100;
 }
 
+.btn-filtro{
+    z-index: 100 !important;
+}
+.container, .buscar-products{
+    z-index: -1 !important;
+}
 
 .difuminado-navbar{
     background-color: #313131e0 !important;
