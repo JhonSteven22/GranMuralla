@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.body-prin {
+    background: #313131;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item .nav-text {
+    margin: 25px 35px 30px 50px;
+}
+
+.cont-list a {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cont-list .active {
+    border-radius: 10px;
+    background-color: #de1212 !important;
+    padding: 10px;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.cont-list a:hover {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #de1212 !important;
+}
+
+
+/* carrusel */
+
+
+.carousel-item .title-carousel {
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-shadow: 7px 4px 6px #de1212bd;
+}
+
+.carousel-item .desc-carrusel {
+    font-size: 23px;
+}
+
+.carousel-item .btn-carrusel {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10%;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #de1212;
+}
+
+.carousel-item .btn-carrusel:hover {
+    box-shadow: 14px 14px 33px 7px rgba(222, 18, 18, 0.35);
+    -webkit-box-shadow: 14px 14px 33px 7px rgba(222, 18, 18, 0.35);
+    -moz-box-shadow: 14px 14px 33px 7px rgba(222, 18, 18, 0.35);
+}
+
+.carousel-pos img {
+    object-fit: cover !important;
+}
+
+/* cards */
+.card-body-hover:hover {
+    box-shadow: -2px 6px 22px 3px rgba(222, 18, 18, 0.48);
+    -webkit-box-shadow: -2px 6px 22px 3px rgba(222, 18, 18, 0.48);
+    -moz-box-shadow: -2px 6px 22px 3px rgba(222, 18, 18, 0.48);
+}
+
+.card-body-hover:hover {
+    transform: scale(1.08);
+}
+
+.card-body-hover {
+    transition: transform .4s ease-in-out;
+    object-fit: cover;
+}
+.card-body-hover img:hover{
+    opacity: 0.4;
+}
+.card-body {
+    color: #fff;
+    overflow: hidden;
+}
+
+.card-text{
+    color:#cecece !important;
+}
+
+/* Buscador */
+.icon-search {
+    z-index: 100;
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    color: white;
+    background-color: #de1212;
+    text-decoration: none;
+}
+
+/* Buscador End */
+/* Filter */
+
+.card-btn-filter {
+    border: none;
+}
+
+.btn-filter {
+    color: #909090;
+}
+
+.btn-filter:hover {
+    background-color: #de1212;
+    border: none;
+    color: #fff;
+}
+
+.btn-filter .svg-filter {
+    color: #fff;
+    background-color: #fff;
+}
+
+.btn-aplicar-filtro {
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #de1212 !important;
+    padding: 10px;
+    color: #fff !important;
+}
+
+/* Offcanvas */
+.accordion-button {
+    color: #fff !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    color: #fff;
+}
+
+.offcanvas-body .accordion .accordion-item .accordion-button {
+    border-bottom: 1px solid #ffffff41;
+}
+
+/*btn-acorgion en blanco*/
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button.collapsed::after {
+    filter: brightness(0%) invert(100%);
+}
+
+/*btn-acorgion en blanco end*/
+/* Offcanvas end */
+
+/* Filter */
+.card-price {
+    color: #bbbbbb;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px 15px 5px;
+}
+
+.card-body .btn-detalles {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #de1212;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.card-list img {
+    object-fit: cover;
+}
+
+
+/* cards end */
+
+
+/* Delivery */
+.row-delivery img {
+    height: 17rem;
+    object-fit: cover;
+}
+
+/* Delivery end */
+
+@media (max-width: 800px) {
+    .carousel-item .title-carousel {
+        font-size: 40px;
+
+    }
+
+    .carousel-item .desc-carrusel {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .carousel-item .btn-carrusel {
+        font-size: 15px;
+        padding: 0px;
+    }
+}
+
+.div-nosotros {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem
+}
+
+.content-nosotros {
+    color: #fff;
+}
+
+.mapa-local {
+    height: 450px;
+    width: 100%;
+}
+
+.content-contact {
+    color: #fff;
+}
+
+.content-contact img {
+    position: relative;
+    z-index: -10;
+    width: 100%;
+    height: 500px;
+}
+
+.content-contact .title-contact {
+    margin-top: -12rem;
+}
+
+.form-contact {
+    color: #fff;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem
+}
+
+.fotter-form-btn {
+    color: #fff;
+    font-weight: bold;
+    background-color: #de1212;
+    border: none;
+}

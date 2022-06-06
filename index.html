@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/Principal.css">
+    <link rel="icon" href="../IMG/logo-icono.ico">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chifa | La Gran Muralla</title>
+</head>
+
+<body class="body-prin">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-position">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="../IMG/LogoChifa.png" alt="Logo" width="50" height="60"> &nbsp;
+                La Gran Muralla</a>
+            &nbsp;&nbsp;&nbsp;
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-list" id="navbarNavAltMarkup">
+                <div class="navbar-nav cont-list">
+                    <ul id="main_nav" class="d-flex justify-content-between nav nav-pills ms-auto scrollto">
+                        <li class="nav-item"><a class="nav-link d-flex nav-text active" href="#main"> Inicio </a></li>
+                        <li class="nav-item"><a class="nav-link d-flex nav-text " href="#delivery"> Delivery </a></li>
+                        <li class="nav-item"><a class="nav-link d-flex nav-text " href="#nosotros"> Nosotros </a></li>
+                        <li class="nav-item"><a class="nav-link d-flex nav-text " href="#contact">Contacto </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+    <div class="main">
+        <div class="content-main" id="main">
+            <!-- Slider -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active carousel-pos">
+                        <img src="../IMG/Sopa-wantan.webp" height="500" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="title-carousel">Sopa Wantan</h2>
+                            <p class="desc-carrusel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                                corrupti
+                                error in accusantium modi, veritatis dicta tenetur, totam commodi dolorem quidem
+                                aspernatur.
+                                Nisi consequuntur sapiente ipsam quod quasi voluptates eaque, molestiae ullam vitae
+                                mollitia
+                                numquam odit deleniti fuga tempore! Sit.</p>
+                            <button class="btn-carrusel">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-pos">
+                        <img src="../IMG/Tallarin-Saltado.webp" height="500" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h2 class="title-carousel">Tallarin Saltado</h2>
+                            <p class="desc-carrusel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                                corrupti
+                                error in accusantium modi, veritatis dicta tenetur, totam commodi dolorem quidem
+                                aspernatur.
+                                Nisi consequuntur sapiente ipsam quod quasi voluptates eaque, molestiae ullam vitae
+                                mollitia
+                                numquam odit deleniti fuga tempore! Sit.</p>
+                            <button class="btn-carrusel">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-pos">
+                        <img src="../IMG/Pollo-con-tausí.webp" height="500" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="title-carousel">Pollo con Tausí</h2>
+                            <p class="desc-carrusel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                                corrupti
+                                error in accusantium modi, veritatis dicta tenetur, totam commodi dolorem quidem
+                                aspernatur.
+                                Nisi consequuntur sapiente ipsam quod quasi voluptates eaque, molestiae ullam vitae
+                                mollitia
+                                numquam odit deleniti fuga tempore! Sit.</p>
+                            <button class="btn-carrusel">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Slider end -->
+
+
+            <!-- cards -->
+            <div class="container">
+                <center>
+                    <br><br>
+                    <h1 style="color: #fff;">NUESTRA CARTA</h1>
+                </center>
+                <p class="col d-flex" style="color: #d5d5d5; font-size: 12.8px; margin-bottom: 3px;"> Ordenar por: </p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                    <!-- select Ordenar -->
+                    <div class="col d-flex">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>Relevancia</option>
+                            <option value="1">Lo mas vendido</option>
+                            <option value="2">Menor Precio</option>
+                            <option value="3">Mayor Precio</option>
+                            <option value="4">A - Z</option>
+                            <option value="5">Z - A</option>
+                        </select>
+                    </div>
+                    <!-- select Ordenar end -->
+
+
+                    <!-- Buscador -->
+                    <div class="col">
+                        <div class="input-group rounded d-flex justify-content-center">
+                            <input type="search" class="form-control rounded input-search" placeholder="Buscar"
+                                aria-label="Search" aria-describedby="search-addon" />
+                            <span class="input-group-text icon-search" id="search-addon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search"
+                                    width="44" height="44" viewBox="0 0 24 24" stroke-width="3" stroke="#fff"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <circle cx="10" cy="10" r="7" />
+                                    <line x1="21" y1="21" x2="15" y2="15" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Buscador end -->
+
+                    <!-- Filtros -->
+                    <div class="col">
+                        <div class="card card-btn-filter">
+                            <button class="btn btn-light btn-filter" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-filter"></i>
+                                <label>Filtros</label>
+                            </button>
+
+                            <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasExample"
+                                aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                    <h1 class="offcanvas-title" id="offcanvasExampleLabel">Filtros</h1>
+
+                                    <div class="divider"></div>
+                                    <button type="button" class="btn-close btn-close-white text-reset"
+                                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item bg-dark text-light">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button
+                                                    class="accordion-button accordion-button-white collapsed bg-dark text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                                    aria-controls="flush-collapseOne">
+                                                    Carta de Platillos
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body ms-4">
+                                                    <div class="form-check ">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Recomendados
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Menús
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Platos Fuertes
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Piqueos
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Sopas
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Postres
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Acompañamiento
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Bebidas
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Todas las Categorías
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item bg-dark text-light">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed bg-dark text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                                    aria-controls="flush-collapseTwo">
+                                                    Precio
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body ms-4">
+
+                                                    <div class="d-flex justify-content-between mb-3">
+                                                        <input type="number" name="price" min="0.00" step="0.10"
+                                                            class="form-control m-2" placeholder="Min">
+                                                        <h2 class="m-3">-</h2>
+                                                        <input type="number" name="price" min="0.00" step="0.10"
+                                                            class="form-control m-2" placeholder="Max">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <center>
+                                        <div
+                                            class="d-flex justify-content-center position-absolute bottom-0 start-50 translate-middle-x mb-5">
+                                            <button class="form-control btn-aplicar-filtro ms-5">Aplicar</button>
+                                            <button class="form-control btn-aplicar-filtro ms-5">Limpiar</button>
+                                        </div>
+                                    </center>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Filtros End -->
+                </div>
+
+
+                <div class="contenedor-cards">
+                    <div class="row gy-4 my-3">
+                        <div class="col-sm-6 col-md-4 col-lg-3 ">
+                            <div class="card card-list bg-dark card-body-hover">
+                                <img class="img-card" src="../IMG/Aeropuerto.webp" height="200" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body ">
+                                    <h5 class="card-title text-center">Areopuerto</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                    <div class="card-price d-flex justify-content-between">
+                                        <label>Precio</label>
+                                        <label>S./ 20.00</label>
+                                    </div>
+                                    <a href="#" class="btn-detalles">Detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card card-list bg-dark card-body-hover">
+                                <img class="img-card" src="../IMG/Arroz-Chaufa.webp" height="200" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Arroz Chaufa</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                    <div class="card-price d-flex justify-content-between">
+                                        <label>Precio</label>
+                                        <label>S./ 20.00</label>
+                                    </div>
+                                    <a href="#" class="btn-detalles">Detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card card-list bg-dark card-body-hover">
+                                <img class="img-card" src="../IMG/Gallina-chi-jau-kay.webp" height="200"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Gallina Chi Jau Kay</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                    <div class="card-price d-flex justify-content-between">
+                                        <label>Precio</label>
+                                        <label>S./ 20.00</label>
+                                    </div>
+                                    <a href="#" class="btn-detalles">Detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card card-list bg-dark card-body-hover">
+                                <img class="img-card" src="../IMG/Kam-lu-wantan.webp" height="200" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Kam Lu Wantan</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.
+                                    </p>
+                                    <div class="card-price d-flex justify-content-between">
+                                        <label>Precio</label>
+                                        <label>S./ 20.00</label>
+                                    </div>
+                                    <a href="#" class="btn-detalles">Detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- cards end -->
+
+        <div class="container">
+            <div class="content-delivery" id="delivery">
+                <br><br><br><br><br>
+                <h1 class="text-light">Lo mejor del Chifa La Gran Muralla, ahora en tu casa y oficina</h1>
+
+                <br>
+                <div class="row">
+                    <div class="col-md-3 row-delivery">
+                        <img src="../IMG/Aeropuerto.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-md-9 card-list bg-dark">
+                        <div class="card-body row">
+                            <div class="col-md-4">
+                                <h5 class="card-title">PEDIDOS CENTRAL.</h5>
+                                <br>
+                                <p class="card-text">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-phone-call" width="25" height="25"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                        <path d="M15 7a2 2 0 0 1 2 2" />
+                                        <path d="M15 3a6 6 0 0 1 6 6" />
+                                    </svg>
+                                    +51 9xx xxx xxx
+                                </p>
+                                <p class="card-text">
+                                    <br>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-phone-call" width="25" height="25"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                        <path d="M15 7a2 2 0 0 1 2 2" />
+                                        <path d="M15 3a6 6 0 0 1 6 6" />
+                                    </svg>
+                                    +51 9xx xxx xxx
+                                </p>
+                                <p class="card-text">
+                                    <br>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-phone-call" width="25" height="25"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                        <path d="M15 7a2 2 0 0 1 2 2" />
+                                        <path d="M15 3a6 6 0 0 1 6 6" />
+                                    </svg>
+                                    +51 9xx xxx xxx
+                                    <br><br>
+                                </p>
+
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="card-title">DELIVERY Y RECOJO EN LOCAL.</h5>
+                                <strong>&nbsp;&nbsp;Delivery: </strong>Zonas de reparto limitadas. Atendemos en lince.
+                                <br>
+                                <strong>&nbsp;&nbsp;Recojo:</strong> Av. Gral. Antonio Alvarez de Arenales 1748, Lince
+                                15073.
+                                <br><br>
+
+                                <h5 class="card-title">HORARIOS DE ATENCIÓN.</h5>
+
+                                &nbsp;&nbsp;<strong>Lunes a Viernes:</strong> 12 pm - 3.30 pm / 6 pm - 9 pm <br>
+                                &nbsp;&nbsp;<strong>Sábado:</strong> 12 pm - 9 pm <br>
+                                &nbsp;&nbsp;<strong>Domingos y feriados:</strong> 12 pm - 6 pm <br>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-nosotros" id="nosotros">
+                <br><br><br><br><br>
+                <center>
+                    <h1>Nosotros</h1>
+                </center><br>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <img src="../IMG/Aeropuerto.webp" height="300" class="card-img-top" alt="...">
+                            <center>
+                                <div class="card-body">
+                                    <h5 class="card-title">LA NUEVA GENERACIÓN</h5>
+                                    <p class="card-text">
+                                        Posteriormente, en 1999, año en que se celebraron los 150 años
+                                        de
+                                        la
+                                        inmigración china al Perú, una familia distinta, conformada por el Dr. Luis
+                                        Yong,
+                                        estudioso
+                                        de la filosofía China y su relación con la gastronomía y la salud, junto a su
+                                        esposa
+                                        Blanquita, decidió homenajear a ese gran chifa de antaño. La Familia Yong
+                                        decidió
+                                        darle
+                                        su toque
+                                        personal creando propuestas distintas como el “Chi Jau Cuy”, cuy crocante bañado
+                                        en
+                                        dos
+                                        salsas: ostión picante y agridulce con frutas trozadas. Así como
+                                        también el “Chaufa con carne de res y culantro” y nuestro ya conocido
+                                        “Chaufarroncito”.
+                                        Y
+                                        como para celebrar tremenda fusión, el Pisco Sour chino, un símbolo más de la
+                                        perfecta
+                                        combinación de ambas culturas.
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-dark">
+                            <center>
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="card-title">ERASE UNA VEZ EN LIMA...</h5>
+                                    <br>
+                                    <p class="card-text">
+                                        Hacia los primeros años del siglo XX, fue fundado el Chifa La
+                                        Gran
+                                        Muralla en
+                                        el corazón del Barrio Chino. Durante muchos años, fue sinónimo de calidez y
+                                        cercanía
+                                        con
+                                        las
+                                        familias limeñas que disfrutaban de la milenaria comida china combinada con el
+                                        sabor
+                                        de
+                                        ingredientes propios de nuestro país. De ese modo, hacia 1920 logra ser uno de
+                                        los
+                                        más
+                                        conocidos y exclusivos restaurantes orientales de Lima. A pesar de ello, en la
+                                        década de
+                                        1970, una profunda crisis económica lleva a que muchos chifas cierren sus
+                                        puertas,
+                                        entre
+                                        ellos el famoso chifa La Gran Muralla.
+                                    </p>
+                                </div>
+                            </center>
+                            <br>
+                            <img src="../IMG/Arroz-Chaufa.webp" height="300" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+                <center>
+                    <h2 class="m-5">Nuestro Local</h2>
+                </center>
+                <iframe class="mapa-local"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.440350851755!2d-77.03832908539778!3d-12.081977491443913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f4f73414a7%3A0x7dbe6c298197d96d!2sLa%20Gran%20Muralla!5e0!3m2!1ses!2spe!4v1654144480430!5m2!1ses!2spe"
+                    style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <center>
+                    <br>
+                    <strong>Dirección:</strong> Av. Gral. Antonio Alvarez de Arenales 1748, Lince
+                    15073.
+                    <br><br>
+
+                    <h5 class="card-title">HORARIOS DE ATENCIÓN.</h5>
+
+                    <strong>Lunes a Viernes:</strong> 12 pm - 3.30 pm / 6 pm - 9 pm <br>
+                    <strong>Sábado:</strong> 12 pm - 9 pm <br>
+                    <strong>Domingos y feriados:</strong> 12 pm - 6 pm <br>
+                </center>
+                <br><br>
+            </div>
+
+            <div class="content-contact" id="contact">
+                <!-- Background image -->
+                <div class="bg-image d-flex justify-content-center align-items-center" style="
+                background-image: url('../IMG/baground_contacts.jpg');
+                height: 550px;">
+                    <h1 class="text-white">CONTÁCTANOS</h1>
+                </div>
+                <!-- Background image -->
+                <center>
+                    <br><br><br>
+                    <h2 class="mb-5">FORMULARIO DE CONTACTO</h2>
+                </center>
+                <div class="form-contact">
+                    <form class="row g-5 needs-validation" novalidate>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" placeholder="Asunto">
+                        </div>
+                        <div class="mb-2">
+                            <textarea class="form-control" rows="7" placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="submit" class="form-control fotter-form-btn" value="Enviar">
+                        </div>
+
+                    </form>
+                </div>
+                <br><br><br>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="text-center text-white bg-dark">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center pb-4">
+            © 2022 Copyright:
+            <a class="text-white" href="#">Chifa La Gran Muralla </a>
+            <p>
+                <strong> Grupo Al-Qaeda</strong>
+            </p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+    <script src="../JS/Active.js"></script>
+
+    <!-- Option 1: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
