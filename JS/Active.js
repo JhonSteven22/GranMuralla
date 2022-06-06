@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //
+/*
 const searchInputDropdown = document.getElementById("search-input-dropdown");
 const dropdownOptions = document.querySelectorAll(".input-group-dropdown-item");
 
@@ -34,3 +35,4 @@ const showOptions = () => {
         el.style.display = "flex";
     });
 };
+*/
